@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--------------------- IMPORTANDO FONTES -------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap"         rel="stylesheet">
+
+
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721267.png" type="image/x-icon">
+
+         <!--------------------- Título da página -------------->
+        <title>Comandos Básicos em HTML</title>
+
+         <!--------------------- Adicionando Css -------------->
+
+      <style>
+         
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ojuju&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body{
+            font-family: "Poppins", sans-serif;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        div {
+             display: flex;
+             justify-content: center;
+             text-align: center;
+             flex-wrap: wrap;
+        }
+        
+        #introducao, #definicao, #conclusao, #topo{
+            padding-top: 50px;
+        }
+    
+
+        .titulo{
+            font-family: "Poppins", sans-serif;
+            font-size: 5em;
+            font-family: Poppins; color:  #1c1a1a; text-shadow: 5px 5px 4px #da5127;
+        }
+        
+        h2{
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 1em;
+            margin: 30px 0 20px 0px ;
+        }
+
+     
+        
+        b,i,small{
+            color: #e26645;
+        }
+        
+
+        @media screen and (max-width: 1215px){
+            h1.titulo{
+                font-size: 4.7em;
+            }
+        }
+
+        @media screen and (max-width: 1141px){
+            h1.titulo{
+                font-size: 4em;
+            }
+        }
+
+        @media screen and (max-width: 985px){
+            h1.titulo{
+                font-size: 3em;
+            }
+        }
+        
+    
+    nav{
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    
+        nav li{
+            list-style: none;
+            display: inline;
+            
+        
+        }
+        
+        nav li a, .link{
+            display: inline;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            background: #e26645;
+            padding: 10px;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
+        
+        .link{
+            display: block;
+            margin: 50px !important;
+        }
+        
+        .svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+        .button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+       </style>
+
+
+    </head>
+    <body>
+
+        <h1 id="topo"> Explorando os Fundamentos da Matemática</h2>
+        
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#definicao">Definição</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+
+        <h2 id="introducao">Introdução</h2>
+        <p>A matemática, como a conhecemos, se baseia em um conjunto de princípios fundamentais, dentre os quais a teoria dos conjuntos se destaca como um pilar crucial.</p>
+         <p>Desenvolvida por <b>Georg Cantor</b> no final do século XIX, essa teoria fornece uma estrutura rigorosa para definir e manipular objetos matemáticos, desde números e funções até conjuntos infinitos e abstrações complexas.</p>
+
+<p>Neste artigo, embarcaremos em uma jornada exploratória pelos principais conceitos da teoria dos conjuntos, desvendando sua importância na construção da matemática moderna. Abordaremos tópicos como:</p>
+        <p>A teoria dos conjuntos é um ramo fundamental da matemática que estuda coleções de objetos, chamados conjuntos, e as relações entre eles. Criada por <b>Georg Cantor</b> no final do século XIX, a teoria dos conjuntos fornece uma linguagem precisa e rigorosa para descrever e analisar diversos fenômenos matemáticos e é amplamente aplicável em muitas áreas da matemática e da ciência.</p>
+        <p> Desde a sua concepção, a teoria dos conjuntos tem sido continuamente desenvolvida e refinada, e suas ideias influenciaram profundamente outras áreas da matemática, <b>como álgebra, análise, lógica e computação</b>. Ao estudar os conjuntos e suas propriedades, os matemáticos exploram questões fundamentais sobre a natureza da matemática e da própria realidade.</p>
+        
+        <h2>Definição formal de conjunto</h2>
+        
+        <p>O que é um conjunto? Quais elementos o compõem? Como definir um conjunto de forma precisa e inequívoca?</p>
+         
+        <h2>Operações com conjuntos</h2> 
+        
+        <p> União, interseção, diferença e complemento: explorando as operações básicas que permitem combinar e manipular conjuntos de diferentes maneiras.</p>
+      
+      <h2 id="definicao">Definição da Teoria dos Conjuntos</h2>
+      <p>A teoria dos conjuntos é uma área da matemática que estuda coleções de objetos, chamados conjuntos, e as relações entre esses conjuntos. Foi desenvolvida pelo matemático Georg Cantor no final do século XIX e é fundamental para várias áreas da matemática, incluindo álgebra, análise, lógica e topologia.</p>
+      
+      <p>A teoria dos conjuntos se destaca por sua versatilidade e aplicabilidade em diversos campos da matemática. Ela serve como base para:
+
+<p><b>Análise matemática</b>: Definindo rigorosamente os conceitos de limite, continuidade e derivada, essenciais para o cálculo e outras áreas da matemática.</p>
+
+<p><b>Álgebra abstrata</b>: Construindo estruturas matemáticas complexas como grupos, anéis e corpos, que servem de base para a teoria dos números e outras áreas.</p>
+
+<p><b>Topologia</b>: Estudando as propriedades geométricas de espaços que podem ser deformados sem rasgá-los ou colá-los, fornecendo uma base para a geometria moderna.</p>
+
+   <h2 id="conclusao">Conclusão</h2>
+   
+   <p> A teoria dos conjuntos, com sua natureza abrangente e rigorosa, fornece uma base sólida para a <b>matemática moderna</b>. Através do estudo aprofundado dessa teoria, podemos fortalecer nossa compreensão dos fundamentos da matemática e desenvolver habilidades essenciais para a resolução de problemas complexos em diversos campos. </p>
+
+<p>A teoria dos conjuntos é um universo fascinante que abre portas para uma compreensão mais profunda da matemática. Através do estudo e da prática, você pode desenvolver suas habilidades matemáticas e explorar novos horizontes no mundo da ciência e da tecnologia.</p>
+
+<p>A teoria dos conjuntos é mais do que apenas uma estrutura matemática; é uma <b>linguagem universal</b> que transcende fronteiras disciplinares e permeia todas as áreas do conhecimento matemático e além. Desde suas origens no século XIX até os desenvolvimentos modernos, essa teoria tem sido um <b>pilar inabalável</b> da matemática, fornecendo um arcabouço rigoroso para a construção e análise de estruturas abstratas.</p>
+
+
+
+<p>No entanto, a teoria dos conjuntos não é imune a controvérsias e paradoxos. Desde o famoso <b>paradoxo de Russell</b> até questões mais recentes, como o contínuo problema de continuum, essa teoria desafia constantemente nossas intuições e nos obriga a refinar nosso entendimento dos fundamentos da matemática.</p>
+
+
+<a href="#topo" class="button">
+  <svg viewBox="0 0 384 512" class="svgIcon">
+    <path
+      d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+    ></path>
+  </svg>
+</a>
+
+<hr>
+
+ <a class="link" href="index.html">Voltar a pagina inicial?</a>
+
+    </body>
+</html>
